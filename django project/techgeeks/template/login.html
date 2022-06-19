@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+   
+
+</head>
+<body>
+    <form action="login" method= "POST">
+        {% csrf_token %}
+                <div  class="muiz">
+                    <div class="navbar">
+                        <img src="file:///C:/Users/toshiba/Downloads/logo.jpg"> 
+                    </div>
+                    <div class="heading">
+                        <h1>LEAF NOW</h1>
+                        <small><i><b> The plants <br>Make our life beautiful</b></i></small>
+                    </div>
+                    <div class="side-bar">
+                       <div class="share">
+                        <img src="file:///C:/Users/toshiba/Desktop/fb.png">
+                        <img src="file:///C:/Users/toshiba/Desktop/twt.png">
+                        <img src="file:///C:/Users/toshiba/Desktop/insta.png">
+                        <img src="file:///C:/Users/toshiba/Desktop/wts.png">
+        
+                       </div>
+        
+                    </div>
+                   <div  class="form">
+                <h2>Login Here</h2>
+                <input type="username" name="username" placeholder="Enter username ">
+                <input type ="password" name="Password" placeholder="Enter password ">
+                <button class="button2"><a>Login </a></button>
+        
+                <p class="link">Don't have an account? <br>
+                        <button type="button"><a href="/account/signup"></a>SIGN UP 
+                        </button></p></div>
+    </form>
+</body>
+</html>

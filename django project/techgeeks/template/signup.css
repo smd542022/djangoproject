@@ -1,0 +1,91 @@
+body{
+    background-image: url(C:/Users/toshiba/Desktop/plants%20grow.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    right: 3%;
+    overflow: hidden;
+    font-family:sans-serif;
+ }
+ .Sign-box{
+    width: 360px;
+    height: 530px;
+margin:auto;
+margin-top: 8%;
+background-color: white;
+border-radius: 4px;
+cursor: pointer;
+
+ }
+ h2{
+    text-align: center;
+    padding-top: 15px;
+ }
+ form{
+    width: 300px;
+   margin-left: 20px;
+ }
+ h4{
+    text-align: center;
+ }
+
+ form label{
+    display: flex;
+    margin-top:10px ;
+    font-size: 15px;
+ }
+ form input{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border: 1px solid rgb(206, 64, 12);
+    border-radius: 7px;
+    outline: none;
+ }
+ input[type="button"]{
+    width: 300px;
+    height: 30px;
+    margin-top: 18px;
+    border: none;
+    background-color: rgb(15, 146, 57);
+    color: white;
+    font-size: 15px;
+    
+ }
+    p{
+        text-align: center;
+        padding-top: 15px;
+        font-size: 15px;
+        color: rgb(1, 0, 11) ;
+
+
+    }
+    .para-2{
+        text-align: center;
+        color: rgb(254, 252, 254);
+        font-size: 20px;
+        margin-top: -4px;
+        font-style:normal;
+
+    }
+    .heading{
+      color:rgba(13, 79, 13, 0.893);
+      position:absolute;
+      top:18%;
+      right: 150%;
+      transform: translateY(-40%);
+      z-index: 1;
+    }
+    h1{
+      font-size: 90px;
+  margin: 10px 0 30px;
+  line-height: 85px;
+  
+  
+  }
+  small{
+      font-size: 20px;
+      margin: 10px  0 s30px;
+      color: black;
+      font-style: inherit;
+  }

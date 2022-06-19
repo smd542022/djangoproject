@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>signup</title>
+    <link rel="stylesheet" href="signup.css">
+   
+</head>
+<body>
+    <form action="signup" method= "POST">
+        {% csrf_token %}
+        <title>SignUp</title>
+        <div class="heading">
+            <h1>LEAF NOW</h1>
+            <small><i><b> The plants <br>Make our life beautiful</b></i></small>
+        </div>
+        <div class="Sign-box">
+            <h2>SignUp</h2>
+            <h4>It takes a minute</h4>
+                <label>firstname</label>
+                <input type="text" name="firstname">
+                <br>
+    
+                <label>lastname</label>
+                <input type="text" name="lastname">
+                <br>
+    
+                <label>Email</label>
+                <input type="email" name="email">
+                <br>
+                <label>username</label>
+                <input type="username" name="username">
+                <br>
+                <label>Password</label>
+                <input type="password" name="password">
+                <br>
+    
+                
+                <input type="submit" name="submit">
+    
+    
+            </form>
+            <p>By clicking the Sign Up button, you Agree to our <br>
+            <a href="#"> Terms and condition</a> and <a href="#"> Policy Privacy</a></p>
+    
+        </div>
+        <p class="para-2">Already have an account?<a href="/account/login"> Login here</a></p>
+    
+    </form>   
+</body>
+</html>
